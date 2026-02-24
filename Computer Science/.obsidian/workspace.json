@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Do List.md",
+                "file": "CPTS/Shell and Payloads/9. Web Shells.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "To Do List"
+              "title": "9. Web Shells"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To Do List.md",
+                "file": "CPTS/Shell and Payloads/9. Web Shells.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of To Do List"
+              "title": "Outline of 9. Web Shells"
             }
           },
           {
@@ -182,8 +182,17 @@
   },
   "active": "d5b7738f0c109083",
   "lastOpenFiles": [
-    "SIEM.md",
+    "CPTS/Shell and Payloads/8. Infiltrating UNIX-Linux.md",
+    "CPTS/Shell and Payloads/7. Infiltrating Windows.md",
+    "CPTS/Shell and Payloads/6. Crafting Payloads with MSFvemon.md",
+    "CPTS/Shell and Payloads/5. Automating Payloads & Delivery with Metasploit.md",
+    "CPTS/Shell and Payloads/2. Anatomy of a Shell.md",
+    "CPTS/Shell and Payloads/1. Introduction-Explanation.md",
+    "CPTS/Attacking Common Services/SMB Attacks (Port 139-445 and UDP 137-138).md",
+    "CPTS/Attacking Common Services/Interacting with Common Services.md",
+    "CPTS/Attacking Common Services/FTP Attacks (Port 21).md",
     "To Do List.md",
+    "SIEM.md",
     "CPTS/Shell and Payloads/10. The Live Engagement.md",
     "HackTheBoxLabs/Baby/Baby Screenshots",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
@@ -203,8 +212,6 @@
     "HackTheBoxLabs/Union/Union Screeshots/Pasted image 20260128232236.png",
     "HackTheBoxLabs/Union/Union Walkthrough.md",
     "CPTS/Shell and Payloads/9. Web Shells.md",
-    "CPTS/Shell and Payloads/7. Infiltrating Windows.md",
-    "CPTS/Shell and Payloads/6. Crafting Payloads with MSFvemon.md",
     "HackTheBoxLabs/Forest/Forest.md",
     "HackTheBoxLabs/Overwatch/Overwatch Screenshots",
     "HackTheBoxLabs/Overwatch",
@@ -221,12 +228,6 @@
     "HackTheBoxLabs/Baby",
     "HackTheBoxLabs/Forest",
     "HackTheBoxLabs/Union/Union Walkthrough 1.md",
-    "HackTheBoxLabs/Union/IPPsec Union.md",
-    "Images For CTPS/Untitled.md",
-    "Things to Research/IPPSEC.md",
-    "CPTS/Shell and Payloads/8. Infiltrating UNIX-Linux.md",
-    "CPTS/Shell and Payloads/5. Automating Payloads & Delivery with Metasploit.md",
-    "CPTS/Shell and Payloads/4. Intro into Payloads.md",
     "Untitled.canvas"
   ]
 }
