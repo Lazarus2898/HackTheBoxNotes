@@ -142,21 +142,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPTS/Attacking Common Services/SMB Attacks (Port 139-445 and UDP 137-138).md",
+                "file": "CPTS/Password Attacks/Introduction into Password Cracking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SMB Attacks (Port 139-445 and UDP 137-138)"
+              "title": "Outline of Introduction into Password Cracking"
+            }
+          },
+          {
+            "id": "db1105446487487b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,10 +176,12 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "githobs:Manage a github issue": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5b7738f0c109083",
+  "active": "83ba70baf4a0d1c7",
   "lastOpenFiles": [
     "CPTS/Using the Metasploit Framework/Modules.md",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
