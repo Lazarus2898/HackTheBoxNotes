@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBoxLabs/readme.md",
+                "file": "Cheat Sheets/Initial Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "readme"
+              "title": "Initial Enumeration"
             }
           }
         ]
@@ -182,8 +182,10 @@
   },
   "active": "d5b7738f0c109083",
   "lastOpenFiles": [
-    "Untitled.md",
+    "HackTheBoxLabs/Cicada/Cicada.md",
+    "Cheat Sheets/Initial Enumeration.md",
     "HackTheBoxLabs/readme.md",
+    "Untitled.md",
     "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260117233113.png",
     "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260117233702.png",
     "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260117230924.png",
@@ -215,8 +217,6 @@
     "Cheat Sheets/Remote Desktop.md",
     "CPTS/Using the Metasploit Framework",
     "HackTheBoxLabs/Overwatch/Overwatch.md",
-    "HackTheBoxLabs/Cicada/Cicada.md",
-    "HackTheBoxLabs/Baby/Baby Walkthrough.md",
     "HackTheBoxLabs/Union/Union Screeshots/Pasted image 20260128233135.png",
     "HackTheBoxLabs/Union/Union Screeshots/Pasted image 20260128232236.png",
     "HackTheBoxLabs/Overwatch/Overwatch Screenshots",
