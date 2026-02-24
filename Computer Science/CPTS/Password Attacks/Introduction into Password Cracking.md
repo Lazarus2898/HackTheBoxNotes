@@ -83,6 +83,8 @@ Running a command of `hashid -j theHash` will indentify what type of hash has be
 | sybasease            | `john --format=sybasease [...] <hash_file>`       | Sybase ASE password hashes                                           |
 | xsha                 | `john --format=xsha [...] <hash_file>`            | xsha (Extended SHA) password hashes                                  |
 | zip                  | `john --format=zip [...] <hash_file>`             | ZIP (WinZip) password hashes                                         |
+
+
 Also one could crack encrypted files with john by using the syntax below.
 
 | **Tool**                | **Description**                               |
