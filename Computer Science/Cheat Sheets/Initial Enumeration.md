@@ -2,7 +2,7 @@
 ### Nmap Scanning
 1. Creating a directory for initial scan output.
 ```bash
-mkdir <dirname>
+mkdir <dirName>
 nmap -sC -sV -oA nmap/<dirName>
 ```
 2. Scanning with nmap with options
