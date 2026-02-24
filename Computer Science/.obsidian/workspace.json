@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS/Password Attacks/Introduction into Password Cracking.md",
+                "file": "CPTS/Shell and Payloads/10. The Live Engagement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction into Password Cracking"
+              "title": "10. The Live Engagement"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "33fdc3d912f427f4",
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPTS/Password Attacks/Introduction into Password Cracking.md",
+                "file": "CPTS/Shell and Payloads/10. The Live Engagement.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduction into Password Cracking"
+              "title": "Outline of 10. The Live Engagement"
             }
           },
           {
@@ -181,12 +180,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db1105446487487b",
+  "active": "20dcaa3eee7df822",
   "lastOpenFiles": [
-    "CPTS/Using the Metasploit Framework/Modules.md",
+    "HackTheBoxLabs/Baby/Baby Screenshots",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
+    "CPTS/Using the Metasploit Framework/Modules.md",
     "CPTS/Password Attacks",
-    "Pasted image 20260223192730.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260223192730.png",
     "Cheat Sheets/Shells.md",
     "Cheat Sheets/SMB Commands.md",
     "Cheat Sheets/SQL.md",
@@ -208,15 +208,14 @@
     "HackTheBoxLabs/Overwatch/Overwatch Screenshots",
     "HackTheBoxLabs/Overwatch",
     "HackTheBoxLabs/Cicada/Cicada Screenshots/Pasted image 20260217000532.png",
-    "Pasted image 20260129010036.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260129010036.png",
     "HackTheBoxLabs/Cicada/Cicada Screenshots",
     "HackTheBoxLabs/Cicada",
-    "Pasted image 20260203221415.png",
-    "Pasted image 20260203211620.png",
-    "Pasted image 20260203211452.png",
-    "Pasted image 20260202233047.png",
-    "Pasted image 20260202232906.png",
-    "HackTheBoxLabs/Baby/Untitled",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260203221415.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260203211620.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260203211452.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260202233047.png",
+    "HackTheBoxLabs/Baby/Pasted image 20260202232906.png",
     "HackTheBoxLabs/Baby/Baby Screenshots",
     "HackTheBoxLabs/Baby",
     "HackTheBoxLabs/Forest",
@@ -228,7 +227,6 @@
     "To Do List.md",
     "CPTS/Shell and Payloads/5. Automating Payloads & Delivery with Metasploit.md",
     "CPTS/Shell and Payloads/4. Intro into Payloads.md",
-    "CPTS/Shell and Payloads/3. Bind Shells and Reverse Shells.md",
     "Untitled.canvas"
   ]
 }
