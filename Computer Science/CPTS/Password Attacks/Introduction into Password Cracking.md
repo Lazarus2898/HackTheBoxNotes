@@ -103,3 +103,4 @@ Also one could crack encrypted files with john by using the syntax below.
 | `wpa2john`              | Converts WPA/WPA2 handshakes for John         |
 
 ### Hashcat
+Test git pull for hashcat

@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "33fdc3d912f427f4",
@@ -143,7 +144,7 @@
               "type": "outline",
               "state": {
                 "file": "CPTS/Password Attacks/Introduction into Password Cracking.md",
-                "followCursor": false,
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -177,11 +178,10 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "githobs:Manage a github issue": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83ba70baf4a0d1c7",
+  "active": "db1105446487487b",
   "lastOpenFiles": [
     "CPTS/Using the Metasploit Framework/Modules.md",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
