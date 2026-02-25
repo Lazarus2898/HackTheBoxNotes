@@ -177,11 +177,10 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "githobs:Manage a github issue": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83ba70baf4a0d1c7",
+  "active": "20dcaa3eee7df822",
   "lastOpenFiles": [
     "CPTS/Using the Metasploit Framework/Modules.md",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
