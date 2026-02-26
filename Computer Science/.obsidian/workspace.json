@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Initial Enumeration"
             }
+          },
+          {
+            "id": "c4377a11b850265a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheat Sheets/Initial Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Initial Enumeration"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HackTheBoxLabs/Forest/Forest.md",
-                "followCursor": true,
+                "file": "CPTS/Password Attacks/Introduction into Password Cracking.md",
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Forest"
+              "title": "Outline of Introduction into Password Cracking"
             }
           },
           {
@@ -166,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,36 +195,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5b7738f0c109083",
+  "active": "c4377a11b850265a",
   "lastOpenFiles": [
-    "HackTheBoxLabs/Cicada/Cicada.md",
-    "Cheat Sheets/Initial Enumeration.md",
-    "HackTheBoxLabs/readme.md",
-    "Untitled.md",
-    "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260117233113.png",
-    "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260117233702.png",
-    "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260117230924.png",
-    "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260117230748.png",
-    "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260202232906.png",
-    "HackTheBoxLabs/Forest/Forest.md",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
-    "CPTS/Shell and Payloads/5. Automating Payloads & Delivery with Metasploit.md",
-    "CPTS/Shell and Payloads/2. Anatomy of a Shell.md",
-    "CPTS/Shell and Payloads/9. Web Shells.md",
-    "CPTS/Shell and Payloads/8. Infiltrating UNIX-Linux.md",
-    "CPTS/Shell and Payloads/7. Infiltrating Windows.md",
-    "CPTS/Shell and Payloads/6. Crafting Payloads with MSFvemon.md",
-    "CPTS/Shell and Payloads/1. Introduction-Explanation.md",
-    "CPTS/Attacking Common Services/SMB Attacks (Port 139-445 and UDP 137-138).md",
-    "CPTS/Attacking Common Services/Interacting with Common Services.md",
-    "CPTS/Attacking Common Services/FTP Attacks (Port 21).md",
-    "To Do List.md",
-    "SIEM.md",
-    "CPTS/Shell and Payloads/10. The Live Engagement.md",
-    "HackTheBoxLabs/Baby/Baby Screenshots",
+    "Cheat Sheets/Initial Enumeration.md",
+    "conflict-files-obsidian-git.md",
+    "HackTheBoxLabs/readme.md",
+    "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260202232906.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260223192730.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260203221415.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260203211620.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260203211452.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260202233047.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260202231629.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260202225135.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260202224149.png",
+    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260129010319.png",
     "CPTS/Using the Metasploit Framework/Modules.md",
     "CPTS/Password Attacks",
-    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260223192730.png",
     "Cheat Sheets/Shells.md",
     "Cheat Sheets/SMB Commands.md",
     "Cheat Sheets/SQL.md",
@@ -217,17 +220,29 @@
     "Cheat Sheets/Remote Desktop.md",
     "CPTS/Using the Metasploit Framework",
     "HackTheBoxLabs/Overwatch/Overwatch.md",
-    "HackTheBoxLabs/Union/Union Screeshots/Pasted image 20260128233135.png",
-    "HackTheBoxLabs/Union/Union Screeshots/Pasted image 20260128232236.png",
+    "SIEM.md",
+    "HackTheBoxLabs/Cicada/Cicada.md",
+    "HackTheBoxLabs/Baby/Baby Walkthrough.md",
+    "HackTheBoxLabs/Union/Union Walkthrough.md",
+    "CPTS/Shell and Payloads/10. The Live Engagement.md",
+    "CPTS/Shell and Payloads/9. Web Shells.md",
+    "CPTS/Shell and Payloads/7. Infiltrating Windows.md",
+    "CPTS/Shell and Payloads/6. Crafting Payloads with MSFvemon.md",
+    "HackTheBoxLabs/Forest/Forest.md",
     "HackTheBoxLabs/Overwatch/Overwatch Screenshots",
     "HackTheBoxLabs/Overwatch",
-    "HackTheBoxLabs/Cicada/Cicada Screenshots/Pasted image 20260217000532.png",
-    "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260129010036.png",
     "HackTheBoxLabs/Cicada/Cicada Screenshots",
     "HackTheBoxLabs/Cicada",
+    "HackTheBoxLabs/Baby/Untitled",
     "HackTheBoxLabs/Baby/Baby Screenshots",
     "HackTheBoxLabs/Baby",
     "HackTheBoxLabs/Forest",
+    "HackTheBoxLabs/Union/Union Walkthrough 1.md",
+    "HackTheBoxLabs/Union/IPPsec Union.md",
+    "Images For CTPS/Untitled.md",
+    "Things to Research/IPPSEC.md",
+    "CPTS/Shell and Payloads/8. Infiltrating UNIX-Linux.md",
+    "To Do List.md",
     "Untitled.canvas"
   ]
 }

@@ -105,4 +105,19 @@ Also one could crack encrypted files with john by using the syntax below.
 | `wpa2john`              | Converts WPA/WPA2 handshakes for John         |
 
 ### Hashcat
-Test git pull for hashcat
+Now moving onto using Hashcat. 
+```bash
+hashcat -a 0 -m 0 e3e3ec5831ad5e7288241960e5d4fdb8 /usr/share/wordlists/rockyou.txt
+```
+Hashcat = Command
+-a = attack mode
+-m = hash type
+Then append the wordlist to use against the hash or file.
+
+| Mode | Desc              |
+| ---- | ----------------- |
+| -a 0 | Dictionary Attack |
+| -a 3 | Mask Attack       |
+`hashcat -a 0 -m e3e3ec5831ad5e7288241960e5d4fdb8 /usr/share/wordlists/rockyou.txt.gz` = crazy!
+
+`hashcat -a 0 -m 0 1b0556a75770563578569ae21392630c /usr/share/wordlists/rockyou.txt.gz -r /usr/share/hashcat/rules/best66.rule` = c0wb0ys1
