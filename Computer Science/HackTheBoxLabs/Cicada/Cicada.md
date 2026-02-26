@@ -186,7 +186,7 @@ S-1-5-21-917908876-1423158569-3159038727-1104 CICADA\john.smoulder (1)
 rpcclient $> lookupsids S-1-5-21-917908876-1423158569-3159038727-1105
 rpcclient $> lookupsids S-1-5-21-917908876-1423158569-3159038727-1106
 S-1-5-21-917908876-1423158569-3159038727-1106 CICADA\michael.wrightson (1)
-S-1-5-21-917908876-1423158569-3159038727-1105 CICADA\sarah.dantelia (1)
+[^1]S-1-5-21-917908876-1423158569-3159038727-1105 CICADA\sarah.dantelia (1)
 rpcclient $> lookupsids S-1-5-21-917908876-1423158569-3159038727-1108
 S-1-5-21-917908876-1423158569-3159038727-1108 CICADA\david.orelious (1)
 ```
@@ -282,3 +282,5 @@ SeShutdownPrivilege           Shut down the system           Enabled
 SeChangeNotifyPrivilege       Bypass traverse checking       Enabled
 SeIncreaseWorkingSetPrivilege Increase a process working set Enabled
 ```
+
+[^1]: 
