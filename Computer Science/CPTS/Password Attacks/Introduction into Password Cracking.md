@@ -104,6 +104,10 @@ Also one could crack encrypted files with john by using the syntax below.
 | `office2john`           | Converts MS Office documents for John         |
 | `wpa2john`              | Converts WPA/WPA2 handshakes for John         |
 
+Using John, I was able to crack a downloaded zip file
+`office2john file.zip > file.hash`
+`john file.hash --wordlist=/usr/share/wordlist/rockyou.txt`
+This outputted the hash needed!
 ### Hashcat
 Now moving onto using Hashcat. 
 ```bash
