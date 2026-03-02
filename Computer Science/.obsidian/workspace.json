@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS/Password Attacks/Introduction into Password Cracking.md",
+                "file": "Cheat Sheets/Password Attacks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction into Password Cracking"
+              "title": "Password Attacks"
+            }
+          },
+          {
+            "id": "6e901708a1d1e55a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,10 +193,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6ffd49b6e4cc5d6",
+  "active": "6e901708a1d1e55a",
   "lastOpenFiles": [
-    "().md",
+    "CPTS/Password Attacks/Network Services.md",
+    "Cheat Sheets/Password Attacks.md",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
+    "().md",
     "Cheat Sheets/RPCclient Command List.md",
     "HackTheBoxLabs/Cicada/Cicada.md",
     "conflict-files-obsidian-git.md",
@@ -226,8 +241,6 @@
     "HackTheBoxLabs/Forest",
     "HackTheBoxLabs/Union/Union Walkthrough 1.md",
     "HackTheBoxLabs/Union/IPPsec Union.md",
-    "Images For CTPS/Untitled.md",
-    "Things to Research/IPPSEC.md",
     "Untitled.canvas"
   ]
 }
