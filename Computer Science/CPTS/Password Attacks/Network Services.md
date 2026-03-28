@@ -13,6 +13,8 @@ Is this section numerous attacks take place, such as:
 
 ## Default Creds List
 ```bash
+sudo apt install pypy3-venv
+
 pip3 install defaultcreds-cheat-sheet
 creds search linksys
 ```
