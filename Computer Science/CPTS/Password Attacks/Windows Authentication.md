@@ -41,3 +41,17 @@ Read Only Domains
 * Group Accounts
 * Computer Accounts
 * Group Policy objects
+
+# Attacking SAM, SYSTEM, and SECURITY
+### Registry Hives
+| Registry Hive   | Description                                                                                                                                                       |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `HKLM\SAM`      | Contains password hashes for local user accounts. These hashes can be extracted and cracked to reveal plaintext passwords.                                        |
+| `HKLM\SYSTEM`   | Stores the system boot key, which is used to encrypt the SAM database. This key is required to decrypt the hashes.                                                |
+| `HKLM\SECURITY` | Contains sensitive information used by the Local Security Authority (LSA), including cached domain credentials (DCC2), cleartext passwords, DPAPI keys, and more. |
+Using the `reg.exe` you can copy the registry's
+```cmd
+reg.exe save hklm\sam C:\sam.save
+reg.exe save hklm\system C:\system.save
+reg.exe save hklm\security C:\security.save
+```
