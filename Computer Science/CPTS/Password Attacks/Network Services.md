@@ -18,3 +18,12 @@ sudo apt install pypy3-venv
 pip3 install defaultcreds-cheat-sheet
 creds search linksys
 ```
+
+```bash
+# MYSQL default creds
+superdba:superdba  
+superdba:password  
+superdba:admin  
+superdba:P@ssw0rd  
+superdba:123456
+```
