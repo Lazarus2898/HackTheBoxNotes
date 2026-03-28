@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS/Password Attacks/Windows Authentication.md",
+                "file": "CPTS/Password Attacks/Attacking SAM LSASS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows Authentication"
+              "title": "Attacking SAM LSASS"
             }
           }
         ],
@@ -197,8 +197,9 @@
   },
   "active": "6e901708a1d1e55a",
   "lastOpenFiles": [
-    "CPTS/Password Attacks/Network Services.md",
     "CPTS/Password Attacks/Windows Authentication.md",
+    "CPTS/Password Attacks/Attacking SAM LSASS.md",
+    "CPTS/Password Attacks/Network Services.md",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
     "Cheat Sheets/Initial Enumeration.md",
     "Cheat Sheets/Password Attacks.md",
@@ -234,7 +235,6 @@
     "CPTS/Shell and Payloads/10. The Live Engagement.md",
     "CPTS/Shell and Payloads/9. Web Shells.md",
     "CPTS/Shell and Payloads/7. Infiltrating Windows.md",
-    "CPTS/Shell and Payloads/6. Crafting Payloads with MSFvemon.md",
     "HackTheBoxLabs/Overwatch/Overwatch Screenshots",
     "HackTheBoxLabs/Overwatch",
     "HackTheBoxLabs/Cicada/Cicada Screenshots",
