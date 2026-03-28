@@ -25,12 +25,14 @@
             "id": "6e901708a1d1e55a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "CPTS/Password Attacks/Network Services.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.4"
+              "icon": "lucide-file",
+              "title": "Network Services"
             }
           }
         ],
@@ -195,19 +197,25 @@
   },
   "active": "6e901708a1d1e55a",
   "lastOpenFiles": [
-    "CPTS/Password Attacks/Network Services.md",
-    "Cheat Sheets/Password Attacks.md",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
-    "().md",
-    "Cheat Sheets/RPCclient Command List.md",
-    "HackTheBoxLabs/Cicada/Cicada.md",
-    "conflict-files-obsidian-git.md",
-    "HackTheBoxLabs/Overwatch/Overwatch.md",
-    "HackTheBoxLabs/Forest/Forest.md",
     "Cheat Sheets/Initial Enumeration.md",
+    "Cheat Sheets/Password Attacks.md",
     "Cheat Sheets/Remote Desktop.md",
+    "CPTS/Password Attacks/Network Services.md",
+    "HackTheBoxLabs/Union/Union Walkthrough.md",
+    "HackTheBoxLabs/Overwatch/Overwatch.md",
+    "HackTheBoxLabs/Cicada/Cicada.md",
     "HackTheBoxLabs/Baby/Baby Walkthrough.md",
+    "Cheat Sheets/SQL.md",
+    "Cheat Sheets/SMB Commands.md",
+    "Cheat Sheets/Shells.md",
+    "Cheat Sheets/RPCclient Command List.md",
+    "Cheat Sheets/Directory Busting.md",
+    "HackTheBoxLabs/Forest/Forest.md",
     "HackTheBoxLabs/readme.md",
+    "HackTheBoxLabs/Union/IPPsec Union.md",
+    "().md",
+    "conflict-files-obsidian-git.md",
     "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260202232906.png",
     "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260223192730.png",
     "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260203221415.png",
@@ -220,13 +228,8 @@
     "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260129010319.png",
     "CPTS/Using the Metasploit Framework/Modules.md",
     "CPTS/Password Attacks",
-    "Cheat Sheets/Shells.md",
-    "Cheat Sheets/SMB Commands.md",
-    "Cheat Sheets/SQL.md",
-    "Cheat Sheets/Directory Busting.md",
     "CPTS/Using the Metasploit Framework",
     "SIEM.md",
-    "HackTheBoxLabs/Union/Union Walkthrough.md",
     "CPTS/Shell and Payloads/10. The Live Engagement.md",
     "CPTS/Shell and Payloads/9. Web Shells.md",
     "CPTS/Shell and Payloads/7. Infiltrating Windows.md",
@@ -240,7 +243,6 @@
     "HackTheBoxLabs/Baby",
     "HackTheBoxLabs/Forest",
     "HackTheBoxLabs/Union/Union Walkthrough 1.md",
-    "HackTheBoxLabs/Union/IPPsec Union.md",
     "Untitled.canvas"
   ]
 }
