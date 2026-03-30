@@ -1,7 +1,7 @@
 # Basic Commands
-`pwd` print working directiory
+`pwd` print working directory
 `whoami` prints the name of the user
-`sudo -i` to check the sudo permissions of the fle
+`sudo -i` to check the sudo permissions of the file
 
 # Adding TTY for better shells
 ```bash
