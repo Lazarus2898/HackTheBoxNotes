@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS/Password Attacks/Attacking Active Directory and NTDS.dit.md",
+                "file": "CPTS/Password Attacks/Credential Hunting in Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attacking Active Directory and NTDS.dit"
+              "title": "Credential Hunting in Windows"
             }
           }
         ]
@@ -183,8 +183,10 @@
   },
   "active": "b6ffd49b6e4cc5d6",
   "lastOpenFiles": [
-    "CPTS/Attacking Common Services/Interacting with Common Services.md",
     "CPTS/Password Attacks/Attacking Active Directory and NTDS.dit.md",
+    "CPTS/Password Attacks/Network Services.md",
+    "CPTS/Password Attacks/Windows Authentication.md",
+    "CPTS/Attacking Common Services/Interacting with Common Services.md",
     "CPTS/Password Attacks/Credential Hunting in Windows.md",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
     "Cheat Sheets/Shells.md",
@@ -193,8 +195,6 @@
     "().md",
     "Pasted image 20260329201049.png",
     "CPTS/Password Attacks/Attacking SAM, LSASS, Windows Credential Manager.md",
-    "CPTS/Password Attacks/Windows Authentication.md",
-    "CPTS/Password Attacks/Network Services.md",
     "Cheat Sheets/Initial Enumeration.md",
     "Cheat Sheets/Remote Desktop.md",
     "HackTheBoxLabs/Union/Union Walkthrough.md",
