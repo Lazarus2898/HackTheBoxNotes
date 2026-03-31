@@ -14,3 +14,5 @@
 Using a file transfer method to move to the victim unit and run with `start LaZagne.exe all`
 
 `C:\> findstr /SIM /C:"password" *.txt *.ini *.cfg *.config *.xml *.git *.ps1 *.yml`
+
+athodutaoheduthadoeuthadotehudatohdeuthaoeduthado
