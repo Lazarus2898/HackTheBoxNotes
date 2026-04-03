@@ -45,3 +45,5 @@ vim
 In Web shells [[9. Web Shells]]
 [Laudanum](https://github.com/jbarcia/Web-Shells/tree/master/laudanum)
 
+# Reverse Shell Generator
+[RevShells.com](https://www.revshells.com/)

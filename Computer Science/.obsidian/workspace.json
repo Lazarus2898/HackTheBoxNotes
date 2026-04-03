@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 206.5
   },
   "right": {
     "id": "33fdc3d912f427f4",
@@ -180,15 +180,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db1105446487487b",
+  "active": "b6ffd49b6e4cc5d6",
   "lastOpenFiles": [
+    "Cheat Sheets/SQL.md",
     "Cheat Sheets/SMB Commands.md",
+    "Cheat Sheets/Shells.md",
+    "Cheat Sheets/RPCclient Command List.md",
+    "Cheat Sheets/Initial Enumeration.md",
+    "Cheat Sheets/File Transfer Methods.md",
     "CPTS/Password Attacks/Pass The Hash (PtH).md",
     "CPTS/Password Attacks/Credential Hunting in Network Shares.md",
     "CPTS/Password Attacks/Credential Hunting in Network Traffic.md",
     "CPTS/Password Attacks/Credential Hunting in Linux.md",
     "CPTS/Password Attacks/Linux Authentication Process.md",
-    "Cheat Sheets/File Transfer Methods.md",
     "CPTS/Password Attacks/Attacking SAM, LSASS, Windows Credential Manager.md",
     "CPTS/Password Attacks/Attacking Active Directory and NTDS.dit.md",
     "CPTS/Password Attacks/Credential Hunting in Windows.md",
@@ -196,18 +200,14 @@
     "CPTS/Password Attacks/Windows Authentication.md",
     "CPTS/Attacking Common Services/Interacting with Common Services.md",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
-    "Cheat Sheets/Shells.md",
     "Cheat Sheets/Password Attacks.md",
     "().md",
     "Pasted image 20260329201049.png",
-    "Cheat Sheets/Initial Enumeration.md",
     "Cheat Sheets/Remote Desktop.md",
     "HackTheBoxLabs/Union/Union Walkthrough.md",
     "HackTheBoxLabs/Overwatch/Overwatch.md",
     "HackTheBoxLabs/Cicada/Cicada.md",
     "HackTheBoxLabs/Baby/Baby Walkthrough.md",
-    "Cheat Sheets/SQL.md",
-    "Cheat Sheets/RPCclient Command List.md",
     "Cheat Sheets/Directory Busting.md",
     "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260202232906.png",
     "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260223192730.png",
