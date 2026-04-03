@@ -39,7 +39,7 @@ This tool supports:
 - FTP credentials
 - Credentials from HTTP NTLM/Basic headers, as well as HTTP Forms
 - NTLMv1/v2 hashes from various traffic including DCE-RPC, SMBv1/2, LDAP, MSSQL, and HTTP
-- Kerberos (AS-REQ Pre-Auth etype 23) hashes
+- Kerberos (AS-REQ Pre-Auth type 23) hashes
 ```bash
 ./Pcredz -f demo.pcapng -t -v
 ```
