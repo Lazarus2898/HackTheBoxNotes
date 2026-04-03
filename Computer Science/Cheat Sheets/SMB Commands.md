@@ -1,4 +1,4 @@
-### SMBCLIENT
+ ### SMBCLIENT
 To see shares on the system
 `smbclient -L //IP -N`
 
