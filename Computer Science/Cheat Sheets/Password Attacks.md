@@ -13,3 +13,7 @@ hydra -L user.txt -P pass.txt ssh://<IP>
 # RDP log on
 hydra -L user.txt -P pass.txt rdp//<IP>
 ```
+
+
+# Hash Cracking 
+[CrackStation](https://crackstation.net/)
