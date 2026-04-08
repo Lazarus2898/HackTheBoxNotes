@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS/Password Attacks/Pass the Certificate.md",
+                "file": "CPTS/Attacking Common Services/Medium Assessment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pass the Certificate"
+              "title": "Medium Assessment"
             }
           }
         ]
@@ -182,8 +182,12 @@
   },
   "active": "b6ffd49b6e4cc5d6",
   "lastOpenFiles": [
-    "().md",
+    "CPTS/Attacking Common Services/FTP Attacks (Port 21).md",
+    "CPTS/Attacking Common Services/Medium Assessment.md",
+    "CPTS/Attacking Common Services/SMB Attacks (Port 139-445 and UDP 137-138).md",
+    "CPTS/Attacking Common Services/Interacting with Common Services.md",
     "CPTS/Password Attacks/Pass the Certificate.md",
+    "().md",
     "CPTS/Password Attacks/Pass the Ticket (PtT) From Linux.md",
     "Cheat Sheets/Password Attacks.md",
     "CPTS/Password Attacks/Pass the Ticket (PtK) from Windows.md",
@@ -204,12 +208,8 @@
     "CPTS/Password Attacks/Credential Hunting in Windows.md",
     "CPTS/Password Attacks/Network Services.md",
     "CPTS/Password Attacks/Windows Authentication.md",
-    "CPTS/Attacking Common Services/Interacting with Common Services.md",
     "CPTS/Password Attacks/Introduction into Password Cracking.md",
     "Pasted image 20260329201049.png",
-    "Cheat Sheets/Remote Desktop.md",
-    "HackTheBoxLabs/Union/Union Walkthrough.md",
-    "HackTheBoxLabs/Overwatch/Overwatch.md",
     "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260202232906.png",
     "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260223192730.png",
     "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260203221415.png",
