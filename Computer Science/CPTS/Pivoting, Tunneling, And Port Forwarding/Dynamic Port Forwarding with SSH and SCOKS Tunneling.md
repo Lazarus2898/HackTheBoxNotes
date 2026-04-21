@@ -16,3 +16,8 @@ ssh -L 1234:localhost:3306 -L 8080:localhost:80 ubuntu@10.129.202.64
 
 ### Setting up a Pivot
 Looking into the `ens` range, these are the establishments of other connections to victim machines.
+
+### Enabling Dynamic Port Forwarding with SSH
+```bash
+ssh -D 9050 ubuntu@10.129.202.64
+```
