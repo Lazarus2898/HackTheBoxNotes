@@ -39,3 +39,14 @@ proxychains nmap -v -sn 172.16.5.1-200
 Using examples such as `rdp_scanner`
 
 `proxychains xfreerdp /v:172.16.5.19 /u:victor /p:pass@123`
+
+# Exercise
+```bash
+# Terminal 1
+ssh -D 9050 ubuntu@10.129.202.64
+
+# Terminal 2
+proxychains xfreerdp3 /v:172.16.5.19 /u:victor /p:pass@123
+
+# Both sessions must run at the same time to be able to forward the traffic through the ubuntu to the Windows machine
+```

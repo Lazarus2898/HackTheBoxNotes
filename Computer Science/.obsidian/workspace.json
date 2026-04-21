@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat Sheets/Remote Desktop.md",
+                "file": "CPTS/Pivoting, Tunneling, And Port Forwarding/Dynamic Port Forwarding with SSH and SCOKS Tunneling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Remote Desktop"
+              "title": "Dynamic Port Forwarding with SSH and SCOKS Tunneling"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "3a1892b7481752bf",
   "lastOpenFiles": [
-    "().md",
     "Cheat Sheets/Remote Desktop.md",
+    "().md",
     "Untitled.canvas",
     "Cheat Sheets/RPCclient Command List.md",
     "Cheat Sheets/Shells.md",
