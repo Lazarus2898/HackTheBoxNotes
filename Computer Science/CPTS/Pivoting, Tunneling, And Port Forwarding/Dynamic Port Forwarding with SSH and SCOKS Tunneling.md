@@ -13,3 +13,6 @@ You can even forward multiple ports by doing the following.
 ```bash
 ssh -L 1234:localhost:3306 -L 8080:localhost:80 ubuntu@10.129.202.64
 ```
+
+### Setting up a Pivot
+Looking into the `ens` range, these are the establishments of other connections to victim machines.
