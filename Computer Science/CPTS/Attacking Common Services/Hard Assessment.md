@@ -77,5 +77,9 @@ Read data files from: /usr/share/nmap
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 53.06 seconds
            Raw packets sent: 8 (328B) | Rcvd: 5 (204B)
-
 ```
+
+# Into the database
+Using the cred sheet I found, I was able to access the `MSSQL` server.
+`impacket-mssqlclient fiona@10.129.203.10 -windows-auth`
+`48Ns72!bns74@S84NNNSl`
