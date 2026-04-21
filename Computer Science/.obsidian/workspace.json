@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS/Pivoting, Tunneling, And Port Forwarding/Dynamic Port Forwarding with SSH and SCOKS Tunneling.md",
+                "file": "CPTS/Pivoting, Tunneling, And Port Forwarding/Remote-Reverse Port Forwarding with SSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dynamic Port Forwarding with SSH and SCOKS Tunneling"
+              "title": "Remote-Reverse Port Forwarding with SSH"
             }
           }
         ]
@@ -182,12 +182,13 @@
   },
   "active": "3a1892b7481752bf",
   "lastOpenFiles": [
+    "CPTS/Pivoting, Tunneling, And Port Forwarding/Dynamic Port Forwarding with SSH and SCOKS Tunneling.md",
+    "CPTS/Pivoting, Tunneling, And Port Forwarding/Remote-Reverse Port Forwarding with SSH.md",
     "Cheat Sheets/Remote Desktop.md",
     "().md",
     "Untitled.canvas",
     "Cheat Sheets/RPCclient Command List.md",
     "Cheat Sheets/Shells.md",
-    "CPTS/Pivoting, Tunneling, And Port Forwarding/Dynamic Port Forwarding with SSH and SCOKS Tunneling.md",
     "Untitled 10.base",
     "Untitled 7.base",
     "Untitled 2.base",
