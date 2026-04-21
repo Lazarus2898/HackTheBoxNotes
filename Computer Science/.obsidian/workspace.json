@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS/Attacking Common Services/Hard Assessment.md",
+                "file": "CPTS/Pivoting, Tunneling, And Port Forwarding/Dynamic Port Forwarding with SSH and SCOKS Tunneling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hard Assessment"
+              "title": "Dynamic Port Forwarding with SSH and SCOKS Tunneling"
             }
           }
         ]
@@ -182,8 +182,11 @@
   },
   "active": "b6ffd49b6e4cc5d6",
   "lastOpenFiles": [
-    "Cheat Sheets/SQL.md",
+    "CPTS/Pivoting, Tunneling, And Port Forwarding/Understanding the Concepts.md",
+    "CPTS/Pivoting, Tunneling, And Port Forwarding/Dynamic Port Forwarding with SSH and SCOKS Tunneling.md",
     "CPTS/Attacking Common Services/Hard Assessment.md",
+    "CPTS/Pivoting, Tunneling, And Port Forwarding",
+    "Cheat Sheets/SQL.md",
     "Cheat Sheets/FTP (File Transfer Protocol).md",
     "Cheat Sheets/File Transfer Methods.md",
     "CPTS/Attacking Common Services/Medium Assessment.md",
@@ -207,8 +210,6 @@
     "CPTS/Password Attacks/Credential Hunting in Linux.md",
     "CPTS/Password Attacks/Linux Authentication Process.md",
     "CPTS/Password Attacks/Attacking Active Directory and NTDS.dit.md",
-    "CPTS/Password Attacks/Credential Hunting in Windows.md",
-    "CPTS/Password Attacks/Network Services.md",
     "Pasted image 20260329201049.png",
     "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260202232906.png",
     "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260223192730.png",
@@ -227,7 +228,6 @@
     "HackTheBoxLabs/Cicada",
     "HackTheBoxLabs/Baby/Untitled",
     "HackTheBoxLabs/Baby/Baby Screenshots",
-    "HackTheBoxLabs/Baby",
     "Untitled.canvas"
   ]
 }
