@@ -71,3 +71,7 @@ Auxiliary action:
    
    # also putting in jobs is an option
 ```
+
+```bash
+run post/multi/gather/ping_sweep RHOSTS=172.16.5.0/23
+```
