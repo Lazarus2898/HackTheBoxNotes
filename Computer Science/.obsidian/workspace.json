@@ -11,14 +11,10 @@
             "id": "5677f4cc8d11f2d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheat Sheets/SMB Commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SMB Commands"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -182,7 +178,9 @@
   },
   "active": "5677f4cc8d11f2d6",
   "lastOpenFiles": [
+    "Cheat Sheets/All CheatSheets.md",
     "HackTheBoxLabs/Return/Writeup.md",
+    "Cheat Sheets/SMB Commands.md",
     "CPTS/Pivoting, Tunneling, And Port Forwarding/Dynamic Port Forwarding with SSH and SCOKS Tunneling.md",
     "HackTheBoxLabs/Baby/Baby Walkthrough.md",
     "HackTheBoxLabs/Cicada/Cicada.md",
@@ -217,8 +215,6 @@
     "CPTS/Password Attacks/Pass the Certificate.md",
     "CPTS/Password Attacks/Pass the Ticket (PtT) From Linux.md",
     "Cheat Sheets/Password Attacks.md",
-    "CPTS/Password Attacks/Pass the Ticket (PtK) from Windows.md",
-    "CPTS/Password Attacks/Pass The Hash (PtH).md",
     "Pasted image 20260329201049.png",
     "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260202232906.png",
     "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260223192730.png",
