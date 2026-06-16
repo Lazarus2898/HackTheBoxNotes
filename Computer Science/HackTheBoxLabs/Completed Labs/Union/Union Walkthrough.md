@@ -1,3 +1,4 @@
+#sql #burpsuite
 # Steps
 Starting off with a basic nmap scan and saving the results to a file
 `nmap -sC -sV -A -oA union/scan 10.129.96.75`
