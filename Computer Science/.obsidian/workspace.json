@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPTS/Pivoting, Tunneling, And Port Forwarding/Remote-Reverse Port Forwarding with SSH.md",
+                "file": "Cheat Sheets/SMB Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Remote-Reverse Port Forwarding with SSH"
+              "title": "SMB Commands"
             }
           }
         ]
@@ -182,8 +182,17 @@
   },
   "active": "5677f4cc8d11f2d6",
   "lastOpenFiles": [
-    "CPTS/Pivoting, Tunneling, And Port Forwarding/Remote-Reverse Port Forwarding with SSH.md",
+    "HackTheBoxLabs/Return/Writeup.md",
     "CPTS/Pivoting, Tunneling, And Port Forwarding/Dynamic Port Forwarding with SSH and SCOKS Tunneling.md",
+    "HackTheBoxLabs/Baby/Baby Walkthrough.md",
+    "HackTheBoxLabs/Cicada/Cicada.md",
+    "HackTheBoxLabs/Overwatch/Overwatch.md",
+    "Cheat Sheets/Directory Busting.md",
+    "Notes for Kaileigh.md",
+    "Cheat Sheets/File Transfer Methods.md",
+    "CPTS/Pivoting, Tunneling, And Port Forwarding/Remote-Reverse Port Forwarding with SSH.md",
+    "HackTheBoxLabs/Return/Return Screenshots",
+    "HackTheBoxLabs/Return",
     "Cheat Sheets/Remote Desktop.md",
     "().md",
     "Untitled.canvas",
@@ -197,13 +206,10 @@
     "Untitled 6.base",
     "Untitled 5.base",
     "Untitled 4.base",
-    "Untitled 3.base",
-    "Untitled 1.base",
     "CPTS/Pivoting, Tunneling, And Port Forwarding/Understanding the Concepts.md",
     "CPTS/Attacking Common Services/Hard Assessment.md",
     "Cheat Sheets/SQL.md",
     "Cheat Sheets/FTP (File Transfer Protocol).md",
-    "Cheat Sheets/File Transfer Methods.md",
     "CPTS/Attacking Common Services/Medium Assessment.md",
     "CPTS/Attacking Common Services/FTP Attacks (Port 21).md",
     "CPTS/Attacking Common Services/SMB Attacks (Port 139-445 and UDP 137-138).md",
@@ -213,12 +219,6 @@
     "Cheat Sheets/Password Attacks.md",
     "CPTS/Password Attacks/Pass the Ticket (PtK) from Windows.md",
     "CPTS/Password Attacks/Pass The Hash (PtH).md",
-    "CPTS/Password Attacks/Attacking SAM, LSASS, Windows Credential Manager.md",
-    "Cheat Sheets/SMB Commands.md",
-    "Cheat Sheets/Initial Enumeration.md",
-    "CPTS/Password Attacks/Credential Hunting in Network Shares.md",
-    "CPTS/Password Attacks/Credential Hunting in Network Traffic.md",
-    "CPTS/Password Attacks/Credential Hunting in Linux.md",
     "Pasted image 20260329201049.png",
     "HackTheBoxLabs/Forest/Forest Screenshots/Pasted image 20260202232906.png",
     "HackTheBoxLabs/Baby/Baby Screenshots/Pasted image 20260223192730.png",
