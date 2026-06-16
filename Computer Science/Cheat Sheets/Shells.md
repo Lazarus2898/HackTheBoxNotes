@@ -1,3 +1,4 @@
+#cheatsheets
 # Basic Commands
 `pwd` print working directory
 `whoami` prints the name of the user

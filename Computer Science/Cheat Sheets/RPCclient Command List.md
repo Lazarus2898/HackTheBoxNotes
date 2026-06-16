@@ -1,3 +1,4 @@
+#cheatsheets
 ### Base Log in
 When using `RPC` commands, if `enum4linux-ng` fails, using RPC to continue enumeration or doing enumeration by hand is possible.
 ```bash

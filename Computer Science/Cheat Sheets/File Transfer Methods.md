@@ -1,3 +1,4 @@
+#cheatsheets
 ```bash
 # Launch on your kali
 sudo python3 /usr/share/doc/python3-impacket/examples/smbserver.py -smb2support Share /home/lazarus/

@@ -1,3 +1,4 @@
+#cheatsheets
 # Logins
 ```bash
 # Anonymous login

@@ -1,3 +1,4 @@
+#cheatsheets
 # Resources
 [MYSQL Documentation](https://dev.mysql.com/doc/refman/8.4/en/information-schema-schemata-table.html)
 
