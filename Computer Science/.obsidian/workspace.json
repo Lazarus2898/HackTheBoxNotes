@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat Sheets/All CheatSheets.md",
+                "file": "HackTheBoxLabs/Delegate/Walkthrough.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "All CheatSheets"
+              "title": "Walkthrough"
             }
           }
         ],
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "33fdc3d912f427f4",
@@ -197,11 +198,22 @@
   },
   "active": "c9caa73d786bb32f",
   "lastOpenFiles": [
+    "Cheat Sheets/SQL.md",
+    "HackTheBoxLabs/Delegate/Walkthrough.md",
+    "HackTheBoxLabs/Delegate/Screenshots",
+    "HackTheBoxLabs/Delegate",
+    "Images For CTPS/Antak Webshells/Pasted image 20260116224256.png",
+    "Images For CTPS/Antak Webshells/Pasted image 20260116224229.png",
+    "Images For CTPS/Antak Webshells/Pasted image 20260116215559.png",
+    "Images For CTPS/PHP Burpsuite/Pasted image 20260117165707.png",
+    "Images For CTPS/PHP Burpsuite/Pasted image 20260117165441.png",
+    "Images For CTPS/PHP Burpsuite/Pasted image 20260117165335.png",
+    "Things to Research/IPPSEC.md",
+    "Cheat Sheets/All CheatSheets.md",
     "Cheat Sheets/Initial Enumeration.md",
     "Cheat Sheets/FTP (File Transfer Protocol).md",
     "Cheat Sheets/File Transfer Methods.md",
     "Cheat Sheets/Directory Busting.md",
-    "Cheat Sheets/All CheatSheets.md",
     "CPTS/Attacking Common Services/SMB Attacks (Port 139-445 and UDP 137-138).md",
     "CPTS/Attacking Common Services/FTP Attacks (Port 21).md",
     "CPTS/Pivoting, Tunneling, And Port Forwarding/Remote-Reverse Port Forwarding with SSH.md",
@@ -209,40 +221,29 @@
     "CPTS/Password Attacks/Attacking SAM, LSASS, Windows Credential Manager.md",
     "CPTS/Password Attacks/Attacking Active Directory and NTDS.dit.md",
     "CPTS/Pivoting, Tunneling, And Port Forwarding/Dynamic Port Forwarding with SSH and SCOKS Tunneling.md",
-    "HackTheBoxLabs/Optimum/Walkthrough.md",
+    "HackTheBoxLabs/Completed Labs/Optimum/Walkthrough.md",
     "CPTS/Using the Metasploit Framework/Modules.md",
     "HackTheBoxLabs/Uncompleted Labs/Cicada/Cicada.md",
-    "HackTheBoxLabs/Optimum/Screenshots",
-    "HackTheBoxLabs/Optimum",
+    "HackTheBoxLabs/Completed Labs/Optimum/Screenshots",
+    "HackTheBoxLabs/Completed Labs/Optimum",
     "HackTheBoxLabs/Uncompleted Labs/Forest/Forest.md",
     "HackTheBoxLabs/Uncompleted Labs/Overwatch/Overwatch.md",
     "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Walkthrough.md",
     "HackTheBoxLabs/Completed Labs/Union/Union Walkthrough.md",
     "HackTheBoxLabs/Uncompleted Labs",
     "HackTheBoxLabs/Completed Labs",
-    "Cheat Sheets/SQL.md",
     "HackTheBoxLabs/readme.md",
     "Cheat Sheets/RPCclient Command List.md",
     "Cheat Sheets/SMB Commands.md",
     "Cheat Sheets/Shells.md",
-    "Cheat Sheets/Remote Desktop.md",
-    "Cheat Sheets/Password Attacks.md",
     "HackTheBoxLabs/Uncompleted Labs/Return/Return Screenshots",
     "HackTheBoxLabs/Uncompleted Labs/Return",
     "Untitled.canvas",
     "Untitled 10.base",
     "Untitled 7.base",
-    "Untitled 2.base",
-    "Untitled 9.base",
     "Pasted image 20260329201049.png",
     "HackTheBoxLabs/Uncompleted Labs/Forest/Forest Screenshots/Pasted image 20260202232906.png",
     "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Screenshots/Pasted image 20260223192730.png",
-    "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Screenshots/Pasted image 20260203221415.png",
-    "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Screenshots/Pasted image 20260203211620.png",
-    "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Screenshots/Pasted image 20260203211452.png",
-    "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Screenshots/Pasted image 20260202233047.png",
-    "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Screenshots/Pasted image 20260202231629.png",
-    "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Screenshots/Pasted image 20260202225135.png",
-    "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Screenshots/Pasted image 20260202224149.png"
+    "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Screenshots/Pasted image 20260203221415.png"
   ]
 }
