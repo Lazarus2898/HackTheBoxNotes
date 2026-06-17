@@ -8,3 +8,7 @@
 [[Shells]]
 [[SMB Commands]]
 [[SQL]]
+
+
+### Documentation
+[Netexec Documentation](https://www.netexec.wiki/)
