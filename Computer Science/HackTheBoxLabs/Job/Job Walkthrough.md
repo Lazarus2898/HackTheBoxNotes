@@ -56,5 +56,4 @@ Host script results:
 |   date: 2026-06-28T17:25:53
 |_  start_date: N/A
 |_clock-skew: mean: 1s, deviation: 0s, median: 1s
-
 ```
