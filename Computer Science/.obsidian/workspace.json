@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBoxLabs/Job/Untitled.md",
+                "file": "HackTheBoxLabs/Job/Job Walkthrough.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Job Walkthrough"
             }
           }
         ],
@@ -195,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9caa73d786bb32f",
+  "active": "db1105446487487b",
   "lastOpenFiles": [
     "Cheat Sheets/Initial Enumeration.md",
-    "HackTheBoxLabs/Job/Untitled.md",
+    "HackTheBoxLabs/Job/Job Walkthrough.md",
     "HackTheBoxLabs/Job/Screenshots",
     "HackTheBoxLabs/Job",
     "HackTheBoxLabs/Delegate/Walkthrough.md",
