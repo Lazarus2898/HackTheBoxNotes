@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBoxLabs/Delegate/Walkthrough.md",
+                "file": "HackTheBoxLabs/Job/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Walkthrough"
+              "title": "Untitled"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "33fdc3d912f427f4",
@@ -198,8 +197,12 @@
   },
   "active": "c9caa73d786bb32f",
   "lastOpenFiles": [
-    "Cheat Sheets/SQL.md",
+    "Cheat Sheets/Initial Enumeration.md",
+    "HackTheBoxLabs/Job/Untitled.md",
+    "HackTheBoxLabs/Job/Screenshots",
+    "HackTheBoxLabs/Job",
     "HackTheBoxLabs/Delegate/Walkthrough.md",
+    "Cheat Sheets/SQL.md",
     "HackTheBoxLabs/Delegate/Screenshots",
     "HackTheBoxLabs/Delegate",
     "Images For CTPS/Antak Webshells/Pasted image 20260116224256.png",
@@ -210,7 +213,6 @@
     "Images For CTPS/PHP Burpsuite/Pasted image 20260117165335.png",
     "Things to Research/IPPSEC.md",
     "Cheat Sheets/All CheatSheets.md",
-    "Cheat Sheets/Initial Enumeration.md",
     "Cheat Sheets/FTP (File Transfer Protocol).md",
     "Cheat Sheets/File Transfer Methods.md",
     "Cheat Sheets/Directory Busting.md",
@@ -235,12 +237,9 @@
     "HackTheBoxLabs/readme.md",
     "Cheat Sheets/RPCclient Command List.md",
     "Cheat Sheets/SMB Commands.md",
-    "Cheat Sheets/Shells.md",
     "HackTheBoxLabs/Uncompleted Labs/Return/Return Screenshots",
     "HackTheBoxLabs/Uncompleted Labs/Return",
     "Untitled.canvas",
-    "Untitled 10.base",
-    "Untitled 7.base",
     "Pasted image 20260329201049.png",
     "HackTheBoxLabs/Uncompleted Labs/Forest/Forest Screenshots/Pasted image 20260202232906.png",
     "HackTheBoxLabs/Uncompleted Labs/Baby/Baby Screenshots/Pasted image 20260223192730.png",

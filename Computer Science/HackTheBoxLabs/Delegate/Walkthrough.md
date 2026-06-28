@@ -48,5 +48,7 @@ Host script results:
 | smb2-time: 
 |   date: 2026-06-17T01:04:07
 |_  start_date: N/A
-
 ```
+
+### Step 1
+Form this, we can see that the domain is `delegate.vl`
