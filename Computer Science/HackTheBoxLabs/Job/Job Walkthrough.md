@@ -57,3 +57,6 @@ Host script results:
 |_  start_date: N/A
 |_clock-skew: mean: 1s, deviation: 0s, median: 1s
 ```
+
+### Adding the host to file
+`echo "10.129.234.73 Job.local" | sudo tee -a /etc/hosts`
